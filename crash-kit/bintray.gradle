@@ -8,7 +8,7 @@ def gitUrl = 'https://github.com/ydstar/CrashKit.git'
 //仓库组
 group = 'com.android.ydkit'//名字可以随便起
 //版本
-version = '1.0.0'
+version = '1.0.1'
 install {
     repositories.mavenInstaller {
         pom {
@@ -60,7 +60,7 @@ bintray {
     configurations = ['archives']
     pkg {
         version {
-            name = '1.0.0'
+            name = '1.0.1'
             desc = '崩溃日志捕捉'
         }
         repo = 'CrashKitRepo' //repository 仓库名称,要能对应上

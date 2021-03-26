@@ -37,6 +37,6 @@ dependencies {
 
 
 //    implementation project(path: ':crash-kit')
-    implementation 'com.android.ydkit:crash-kit:1.0.0'
+    implementation 'com.android.ydkit:crash-kit:1.0.1'
 
 }
