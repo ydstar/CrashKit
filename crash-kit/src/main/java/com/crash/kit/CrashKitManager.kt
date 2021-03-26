@@ -7,7 +7,7 @@ import java.io.File
 /**
  * 捕获java层的crash,然后存到本地文件中
  */
-object CrashMgr {
+object CrashKitManager {
     private const val CRASH_DIR_JAVA = "java_crash"
 
     fun init() {

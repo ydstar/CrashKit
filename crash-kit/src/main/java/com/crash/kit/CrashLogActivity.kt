@@ -30,7 +30,7 @@ class CrashLogActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_crash_log)
 
-        val crashFiles = CrashMgr.crashFiles()
+        val crashFiles = CrashKitManager.crashFiles()
 
         val list = ArrayList<File>()
         for (file in crashFiles) {
@@ -59,7 +59,7 @@ class CrashLogActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.delete -> {
-                CrashMgr.deleteFiles()
+                CrashKitManager.deleteFiles()
                 crashLogAdapter?.clearData()
                 return true
             }
