@@ -9,7 +9,7 @@
 仅支持`AndroidX`
 ```
 dependencies {
-     implementation 'com.android.ydkit:crash-kit:1.0.0'
+     implementation 'com.android.ydkit:crash-kit:1.0.1'
 }
 ```
 
