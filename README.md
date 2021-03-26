@@ -16,7 +16,7 @@ dependencies {
 ## 使用方法
 在application中初始化
 ```java
-CrashMgr.init()
+CrashKitManager.init()
 ```
 
 看crash日志列表
